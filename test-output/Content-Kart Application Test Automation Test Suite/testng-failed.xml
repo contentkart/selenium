@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Content-Kart Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.ck.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Content-Kart App Test Cases(failed)">
+    <classes>
+      <class name="com.ck.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="1 2 3 4 5 6"/>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ck.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Content-Kart App Test Cases(failed) -->
+</suite> <!-- Failed suite [Content-Kart Application Test Automation Test Suite] -->
